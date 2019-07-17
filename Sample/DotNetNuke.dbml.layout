@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 9.375" name="DotNetNuke">
+  <DataContextMoniker Name="/DataContext" />
+  <nestedChildShapes>
+    <classShape Id="2cc7a45d-e047-47b5-825c-3fc91a6c8958" absoluteBounds="0.75, 0.75, 2, 7.9245426432291648">
+      <DataClassMoniker Name="/DataContext/Tab" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4bde88ca-75da-4960-b2fa-24a3706a1dc6" absoluteBounds="0.76500000000000012, 1.21, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.45923076923077 : 8.67454264322916); (1.45923076923077 : 8.92454264322916); (2.05461538461538 : 8.92454264322916); (2.05461538461538 : 8.67454264322916)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/DataContext/Tab/Tab_Tab" />
+      <nodes>
+        <classShapeMoniker Id="2cc7a45d-e047-47b5-825c-3fc91a6c8958" />
+        <classShapeMoniker Id="2cc7a45d-e047-47b5-825c-3fc91a6c8958" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

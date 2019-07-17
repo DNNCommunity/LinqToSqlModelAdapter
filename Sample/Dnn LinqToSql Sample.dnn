@@ -1,0 +1,64 @@
+﻿<dotnetnuke type="Package" version="5.0">
+  <packages><package name="Dnn LinqToSql Sample" type="Module" version="0.0.0">
+  <friendlyName>Dnn LinqToSql Sample</friendlyName>
+  <description />
+  <iconFile>/Images/icon_extensions_32px.png</iconFile>
+  <owner>
+    <name />
+    <organization />
+    <url />
+    <email />
+  </owner>
+  <license />
+  <releaseNotes />
+  <components>
+    <component type="Module">
+      <desktopModule>
+        <moduleName>Dnn LinqToSql Sample</moduleName>
+        <foldername>Dnn.LinqToSqlModuleSample</foldername>
+        <businessControllerClass />
+        <supportedFeatures />
+        <shareable>Supported</shareable>
+        <moduleDefinitions>
+          <moduleDefinition>
+            <friendlyName>Dnn LinqToSql Sample</friendlyName>
+            <definitionName>Dnn LinqToSql Sample</definitionName>
+            <defaultCacheTime>0</defaultCacheTime>
+            <moduleControls>
+              <moduleControl>
+                <controlKey />
+                <controlSrc>DesktopModules/Dnn.LinqToSqlModuleSample/View.ascx</controlSrc>
+                <supportsPartialRendering>False</supportsPartialRendering>
+                <controlTitle />
+                <controlType>Anonymous</controlType>
+                <iconFile />
+                <helpUrl />
+                <supportsPopUps>False</supportsPopUps>
+              </moduleControl>
+            </moduleControls>
+          </moduleDefinition>
+        </moduleDefinitions>
+      </desktopModule>
+    </component>
+    <component type="Assembly">
+      <assemblies>
+        <basePath>bin</basePath>
+        <assembly>
+          <name>Dnn.LinqToSqlModuleSample.dll</name>
+        </assembly>
+        <assembly>
+          <name>Dnn.LinqToSqlModelAdapter.dll</name>
+        </assembly>
+      </assemblies>
+    </component>
+    <component type="File">
+      <files>
+        <basePath>DesktopModules\Dnn.LinqToSqlModuleSample</basePath>
+        <file>
+          <name>View.ascx</name>
+        </file>
+      </files>
+    </component>
+  </components>
+</package></packages>
+</dotnetnuke>
